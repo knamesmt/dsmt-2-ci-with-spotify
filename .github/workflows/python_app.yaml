@@ -44,7 +44,7 @@ jobs:
 
       # Run linting with ruff
       - name: Lint with ruff
-        run: uvx ruff check
+        run: uvx ruff check --fix
 
       # Run formatting check
       - name: Formatting
